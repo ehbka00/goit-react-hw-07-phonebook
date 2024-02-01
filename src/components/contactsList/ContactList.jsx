@@ -20,7 +20,7 @@ const ContactList = () => {
 
   useEffect(() => {
     dispatch(fetchContacts());
-  }, []);
+  }, [dispatch]);
 
   const handleDeleteOnClick = evt => {
     const parentNode = evt.target.parentNode;
