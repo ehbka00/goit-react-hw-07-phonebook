@@ -1,0 +1,30 @@
+.form {
+  width: 325px;
+  border: 1px solid;
+  padding: 5px 10px;
+}
+
+.form_name, .form_number {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_name input, .form_number input {
+  width: 180px;
+  margin-top: 10px;
+}
+
+.form_name, .form_number {
+  padding: 10px 0;
+}
+
+.btn {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
